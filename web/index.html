@@ -1,0 +1,21 @@
+{{define "index"}}
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{.Title}}</title>
+    </head>
+    <body>
+        <h1>Bienvenido a tu pagina del tiempo favorita</h1>
+        <h3>Por favor selecciona una ciudad</h3>
+        <form method="post" action="/showWeather">
+        <select name="city" size="1" id="city">
+            {{range .Cities}}
+                <option value="{{.}}">{{.}}</option>
+            {{end}}
+        </select>
+        <button type="submit">Enviar</button>
+        </form>
+    </body>
+    </html>
+{{end}}

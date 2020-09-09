@@ -1,0 +1,11 @@
+{
+    "db": {
+      "dbPath": "localhost/GoWeather",
+      "user": "postgres",
+      "password": "66o831t12",
+      "sslMode": "disable"
+    },
+    "templatePath": "web/*",
+    "logFile": "log.txt",
+    "debugMode": true
+}

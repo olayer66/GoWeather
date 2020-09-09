@@ -1,0 +1,15 @@
+2020/08/26 17:09:46 Starting weather server...
+2020/08/26 17:10:16 Reloading weather records
+2020/08/26 17:10:16 Madrid weather data reloaded
+2020/08/26 17:10:16 londres weather data reloaded
+2020/08/26 17:10:16 lisboa weather data reloaded
+2020/08/26 17:10:16 Paris weather data reloaded
+2020/08/26 17:10:16 404 Not Found aaaa
+2020/08/26 17:10:16 Weather records reloaded
+2020/08/26 17:10:46 Reloading weather records
+2020/08/26 17:10:46 Madrid weather data reloaded
+2020/08/26 17:10:46 londres weather data reloaded
+2020/08/26 17:10:46 lisboa weather data reloaded
+2020/08/26 17:10:46 Paris weather data reloaded
+2020/08/26 17:10:46 404 Not Found aaaa
+2020/08/26 17:10:46 Weather records reloaded

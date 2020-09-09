@@ -1,0 +1,18 @@
+{{define "showWeather"}}
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{.Title}}</title>
+    </head>
+    <body>
+    <h1>El tiempo actual en {{.City}} es {{.WeatherInfo.Description}}</h1>
+    <p><b>Temperatura: </b>{{.WeatherInfo.Temp}}&#8451;</p>
+    <p><b>Sensaciòn atmosferica: </b>{{.WeatherInfo.FeelTemp}}&#8451;</p>
+    <p><b>Temperatura Maxima: </b>{{.WeatherInfo.MaxTemp}}&#8451;</p>
+    <p><b>Temperatura minima: </b>{{.WeatherInfo.MinTemp}}&#8451;</p>
+    <p><b>Presiòn atmosferica: </b>{{.WeatherInfo.Pressure}}mb</p>
+    <p><b>Humedad: </b>{{.WeatherInfo.Humidity}}&#37;</p>
+    </body>
+    </html>
+{{end}}
